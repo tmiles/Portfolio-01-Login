@@ -1,0 +1,82 @@
+/* Add application styles & imports to this file! */
+
+/** Globals **/
+* {
+  color: #21409A;
+  font-family: 'Manjari', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #21409A;
+}
+
+/** END Globals **/
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center-block {
+  width: 95%;
+  margin: 0px auto;
+  display: block;
+
+}
+
+.card {
+  border-radius: 1px;
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+div.icons > span {
+  margin: 0px 20px;
+}
+
+div.icons  fa-icon {
+   opacity: 0.75;
+  cursor: pointer;
+}
+
+div.icons  > fa-icon:hover {
+  transform: scale(1.5);
+}
+
+div.inputBubble input[type="text"] {
+  border: 0px;
+  height: 100%;
+}
+
+div.inputBubble {
+  border-radius: 20px;
+  padding: 15px 20px;
+  width: 75%;
+  margin: 20px auto;
+  text-align: left;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.18);
+  background-color: white;
+}
+
+div.inputBubble:hover {
+  transform: scale(1.08);
+}
+
+div.inputBubble > span {
+  display: inline-block;
+}
+
+div.inputBubble > fa-icon {
+  margin: 0px 10px;
+}
+
+
